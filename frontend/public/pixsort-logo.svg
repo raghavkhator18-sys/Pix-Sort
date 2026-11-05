@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 120 120" role="img" aria-label="Camera aperture logo">
+  <!-- Rounded tile -->
+  <rect x="2" y="2" width="116" height="116" rx="22" fill="#454545"/>
+
+  <!-- Aperture icon (24x24 grid, scaled and centered in the tile) -->
+  <g transform="translate(28.8 28.8) scale(2.6)"
+     fill="none" stroke="#e6e6e6" stroke-width="1.6"
+     stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="m14.31 8 5.74 9.94"/>
+    <path d="M9.69 8h11.48"/>
+    <path d="m7.38 12 5.74-9.94"/>
+    <path d="M9.69 16 3.95 6.06"/>
+    <path d="M14.31 16H2.83"/>
+    <path d="m16.62 12-5.74 9.94"/>
+  </g>
+</svg>

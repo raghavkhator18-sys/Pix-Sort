@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+output/
+frontend/node_modules/
+frontend/dist/
+*.egg-info/
+*.tsbuildinfo
+frontend/.vite/
+coverage/
+*.coverage
+*.env
+!.env.example

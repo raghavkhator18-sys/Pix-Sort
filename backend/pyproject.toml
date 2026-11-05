@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixsort"
+version = "0.1.0"
+description = "Local, non-destructive image organization analysis"
+requires-python = ">=3.11"
+dependencies = [
+  "Pillow>=10.0",
+  "numpy>=1.24",
+  "opencv-python-headless>=4.8",
+  "ImageHash>=4.3",
+]
+
+[project.scripts]
+pixsort = "pixsort.__main__:main"
+
+[project.optional-dependencies]
+desktop = ["PySide6>=6.7"]
+web = ["fastapi>=0.115", "uvicorn[standard]>=0.30", "python-multipart>=0.0.9", "httpx>=0.27"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
